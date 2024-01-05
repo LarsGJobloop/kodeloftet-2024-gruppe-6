@@ -1,6 +1,12 @@
 body {
   margin: 0px;
   height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex-grow: 1;
 }
 
 p {
